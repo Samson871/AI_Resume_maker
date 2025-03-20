@@ -2,9 +2,8 @@
 
 ### **An intelligent resume builder with AI enhancements, real-time editing, and PDF generation!**  
 
-![Resume Builder Preview](https://via.placeholder.com/800x400?text=Project+Preview)  
-*(Replace this with an actual screenshot of your app)*  
-
+https://drive.google.com/file/d/1nAXOddkQebf8hohzAOwvbGOzGwf5sjLv/view?usp=sharing
+visit the link to preview the website
 ---
 
 ## **🌟 Features**
