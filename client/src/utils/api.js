@@ -1,10 +1,12 @@
 import axios from "axios";
 
+const API_URL = 'http://localhost:5000/api';
+
 export const enhanceResumeSection = async (section, data) => {
   try {
     console.log("Sending request to API:", data);
 
-    const response = await axios.post("http://localhost:5000/api/enhance", data);
+    const response = await axios.post(`${API_URL}/enhance`, data);
     let enhancedContent = response.data.enhancedContent;
 
     if (section === "experience" || section === "projects") {
@@ -32,7 +34,7 @@ export const downloadResumePDF = async () => {
     console.log("📤 Sending request to generate PDF for:", clientURL);
     
     const response = await axios.post(
-      "http://localhost:5000/api/generate-pdf",
+      `${API_URL}/generate-pdf`,
       { clientURL }, 
       { responseType: "blob" }
     );
