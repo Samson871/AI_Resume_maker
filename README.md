@@ -13,7 +13,13 @@ visit the link to preview the website
 ✅ **PDF Generation** – Download a **well-formatted** resume using **Puppeteer**.  
 ✅ **User-Friendly UI** – Simple, clean, and intuitive interface.  
 
-
+## **🛠️ start command **
+*Enter your Gemini api key in .env file 
+*Check your mongodb uri 
+1. open terminal
+2. cd client -> npm i -> npm run dev
+3. open new termial
+4. cd server -> npm i -> npm run dev
 
 ## **🛠️ Tech Stack**
 ### **Frontend (React)**
